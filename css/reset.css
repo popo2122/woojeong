@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+body {
+  background-color: #f3efe3;
+}
