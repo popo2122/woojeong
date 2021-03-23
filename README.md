@@ -1,4 +1,7 @@
 # Woojeong's Portfolio site
+### *🧡 작업툴*
+- 와이어 프레이밍 및 디자인 : Photoshop, Illustrator
+- Bracket, Visual Studio code, jQuery    
 
 ### *🧡 Design*
 - 메인 색상 : 민트, 오렌지, 베이지
