@@ -50,8 +50,6 @@ body {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
-    /*    background-color: var(--color-beige);*/
-    /* background-color: tan; */
   }
 
   .section__title {
@@ -79,8 +77,8 @@ body {
   }
 
   .main__img {
-    width: 868px;
-    /* width: 45.208vw; */
+    /*    width: 868px;*/
+    width: 45.208vw;
     height: 100%;
     margin: 30px auto;
   }
@@ -98,12 +96,7 @@ body {
     text-align: end;
     color: var(--color-orange);
     transform: rotateY(0deg) rotateX(0deg);
-    /*    background-color: violet;*/
   }
-
-  /* .main__title > h1 {
-    font-size: 2.083vw;
-  } */
 
   .title__bg {
     width: 500px;
@@ -119,12 +112,11 @@ body {
     position: absolute;
     bottom: 8%;
     right: 19%;
-    width: 200px;
-    height: 200px;
-    /* width: 10.416vw;
-    height: 10.416vw; */
+    /* width: 200px;
+    height: 200px; */
+    width: 10.416vw;
+    height: 10.416vw;
     transform: translateX(-50px);
-    /*    background-color: lightblue;*/
   }
 
   @keyframes plane-moving {
@@ -140,10 +132,10 @@ body {
   }
 
   .main__plane {
-    width: 92px;
-    height: 78px;
-    /* width: 4.791vw;
-    height: 4.062vw; */
+    /* width: 92px;
+    height: 78px; */
+    width: 4.791vw;
+    height: 4.062vw;
     opacity: 0;
   }
 
@@ -152,7 +144,6 @@ body {
   }
 
   .main__plane.main__plane--animate {
-    /* offset: path("M-9,88 C27,66 52,53 82,63"); */
     animation: plane-moving 1000ms linear forwards;
   }
 
@@ -196,7 +187,6 @@ body {
     width: 100%;
     height: auto;
     margin-top: 10px;
-    /*    background-color: aliceblue;*/
   }
 
   .scroll__line {
@@ -211,7 +201,6 @@ body {
     margin-top: 20px;
     color: var(--color-orange);
     text-align: center;
-    /*    background-color: bisque;*/
   }
 
   /*main menu*/
@@ -222,7 +211,6 @@ body {
     width: 200px;
     height: auto;
     text-align: end;
-    /*    background-color: lightblue;*/
   }
 
   .main__menu > li {
@@ -287,9 +275,7 @@ body {
     float: right;
     width: 500px;
     height: 100%;
-    /*  opacity: 0;*/
     transform: translateY(-50px);
-    /*    background-color: lightcoral;*/
   }
 
   .about__strength > .section__title {
@@ -302,7 +288,6 @@ body {
     height: 100%;
     color: var(--color-beige);
     text-align: end;
-    /*    background-color: lightblue;*/
   }
 
   .strength__sub {
@@ -427,7 +412,6 @@ body {
   .work__lists {
     width: 100%;
     height: 100%;
-    /* background-color: lightpink; */
   }
 
   .work__list {
@@ -455,7 +439,7 @@ body {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-10px);
+      transform: translateY(-20px);
     }
     100% {
       transform: translateY(0);
@@ -463,7 +447,7 @@ body {
   }
 
   .work__list:hover {
-    animation: work__list-moving 1200ms ease-in forwards infinite;
+    animation: work__list-moving 2000ms ease-in forwards infinite;
   }
 
   .list__img-box {
@@ -504,7 +488,7 @@ body {
 
   .list__text-box {
     color: var(--color-mint);
-    font-weight: 700;
+    font-weight: 900;
   }
 
   .list__desc {
@@ -609,7 +593,6 @@ body {
   .skills__process {
     width: 100%;
     height: 100%;
-    /* background-color: lightpink; */
   }
 
   .skill {
@@ -618,7 +601,6 @@ body {
     width: 100%;
     height: 100%;
     margin-bottom: 40px;
-    /* background-color: lightblue; */
   }
 
   .skill__value {
@@ -632,7 +614,7 @@ body {
   .skill__name {
     margin-right: 50px;
     font-size: var(--font-size-mid);
-    font-weight: 700;
+    font-weight: 900;
     line-height: 50px;
     text-align: end;
     opacity: 0;
@@ -673,7 +655,7 @@ body {
   .skills__learning > p {
     margin-right: 10px;
     font-size: var(--font-size-small);
-    font-weight: 700;
+    font-weight: 900;
     text-align: end;
     color: var(--color-orange);
   }
@@ -723,18 +705,16 @@ body {
 
   .contact__bottom {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .contact__bottom img {
     width: 90px;
     height: 90px;
+    margin: 0 10px;
   }
 
   .contact__kakao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     cursor: pointer;
   }
 
