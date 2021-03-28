@@ -1,7 +1,5 @@
-@media screen and (max-width: 499px){
-    
-    
-     /* 공통스타일 */
+@media screen and (max-width: 499px) {
+  /* 공통스타일 */
   :root {
     /* font-size */
     --font-size-main-title: 26px;
@@ -16,7 +14,6 @@
   #wrap {
     width: 100%;
     height: 100%;
-    /* overflow: hidden; */
   }
 
   .section__container {
@@ -24,7 +21,6 @@
     width: 95%;
     height: 100%;
     margin: 0 auto;
-    /* background-color: tan; */
   }
 
   .section__title {
@@ -55,8 +51,8 @@
     /* width: 54vw; */
     width: 80vw;
     height: 100%;
-/*    margin: 100px auto;*/
-      margin: 80px auto;
+    /*    margin: 100px auto;*/
+    margin: 80px auto;
   }
 
   .main__img > img {
@@ -73,8 +69,6 @@
     height: 13.888vw;
     text-align: end;
     color: var(--color-orange);
-    /* transform: rotateY(0deg) rotateX(0deg); */
-    /*    background-color: violet;*/
   }
 
   .main__title > h1 {
@@ -99,7 +93,6 @@
     right: 15%;
     width: 20.833vw;
     height: 20.833vw;
-    /*    background-color: lightblue;*/
   }
 
   @keyframes plane-moving {
@@ -133,8 +126,8 @@
   .main__svg {
     position: absolute;
     bottom: 19%;
-/*    right: 70%;*/
-      right: 50%;
+    /*    right: 70%;*/
+    right: 50%;
     width: 100%;
     height: 100%;
     transform: rotateZ(-15deg) translateX(-50px);
@@ -171,7 +164,6 @@
     width: 100%;
     height: auto;
     margin-top: 10px;
-    /*    background-color: aliceblue;*/
   }
 
   .scroll__line {
@@ -179,7 +171,7 @@
       height: 80px; */
     width: 5px;
     height: 60px;
-      margin-top: -50px;
+    margin-top: -50px;
     background-color: var(--color-orange);
   }
 
@@ -189,9 +181,8 @@
     /* margin-top: 20px; */
     margin-top: 10px;
     color: var(--color-orange);
-      font-size: 3.6vw;
+    font-size: 3.6vw;
     text-align: center;
-    /*    background-color: bisque;*/
   }
 
   /*main menu*/
@@ -258,15 +249,15 @@
   }
 
   .mobile__menu__toggle {
-/*    top: -60px;*/
-      top: 20px;
+    /*    top: -60px;*/
+    top: 20px;
     right: 20px;
-/*
+    /*
     width: 50px;
     height: 50px;
 */
-      width: 40px;
-      height: 30px;
+    width: 40px;
+    height: 30px;
     cursor: pointer;
   }
 
@@ -274,8 +265,8 @@
     display: block;
     width: 100%;
     height: 4px;
-/*    margin: 15px 0;*/
-      margin: 10px 0;
+    /*    margin: 15px 0;*/
+    margin: 10px 0;
     background-color: var(--color-orange);
     transition: all 300ms ease-in;
   }
@@ -328,11 +319,11 @@
     margin-bottom: 20px;
   }
   .about__career {
-/*    width: 420px;*/
-      width: 350px;
+    /*    width: 420px;*/
+    width: 350px;
     margin: 0 auto;
-/*    line-height: 20px;*/
-      line-height: 18px;
+    /*    line-height: 20px;*/
+    line-height: 18px;
     background-color: var(--color-mint);
   }
 
@@ -366,7 +357,6 @@
     height: 100%;
     color: var(--color-beige);
     text-align: center;
-    /*    background-color: lightblue;*/
   }
 
   .strength__sub {
@@ -379,8 +369,8 @@
 
   .strength__desc {
     margin-bottom: 30px;
-/*    line-height: 20px;*/
-      line-height: 18px;
+    /*    line-height: 20px;*/
+    line-height: 18px;
     font-size: var(--font-size-regular);
   }
 
@@ -569,7 +559,7 @@
 
   .mo-list__desc {
     /* font-size: var(--font-size-small); */
-      padding: 0;
+    padding: 0;
     font-size: 1.25vw;
     font-weight: 700;
     text-align: center;
@@ -581,21 +571,6 @@
   .work__plane {
     display: none;
   }
-
-  /* .mo_work__cursor {
-    position: fixed;
-    width: 108px;
-    height: 80px;
-    width: 11.25vw;
-    height: 8.333vw;
-    pointer-events: none;
-    mix-blend-mode: difference;
-    z-index: 99;
-  }
-
-  .mo_work__cursor > img {
-    width: 100%;
-  } */
 
   /* section4 : skills */
   #skills {
@@ -612,7 +587,6 @@
   .skills__process {
     width: 100%;
     height: 100%;
-    /* background-color: lightpink; */
   }
 
   .skill {
@@ -621,7 +595,6 @@
     width: 100%;
     height: 100%;
     margin-bottom: 40px;
-    /* background-color: lightblue; */
   }
 
   .skill__value {
@@ -677,8 +650,8 @@
   }
 
   .skills__learning > p {
-/*    font-size: var(--font-size-small);*/
-      font-size: var(--font-size-regular);
+    /*    font-size: var(--font-size-small);*/
+    font-size: var(--font-size-regular);
     font-weight: 700;
     text-align: center;
     color: var(--color-orange);
@@ -698,8 +671,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-/*    padding: 50px 0;*/
-      padding: 40px 0;
+    /*    padding: 50px 0;*/
+    padding: 40px 0;
     color: var(--color-beige);
   }
 
@@ -721,21 +694,20 @@
     display: none;
   }
 
-
   .contact__bottom {
     display: flex;
     margin-bottom: 20px;
   }
 
   .contact__bottom img {
-/*
+    /*
     width: 70px;
     height: 70px;
     margin: 0 10px;
 */
-      width: 60px;
-      height: 60px;
-      margin: 0 5px;
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
   }
 
   .contact__kakao {
@@ -751,8 +723,8 @@
   .contact__copy {
     font-size: var(--font-size-micro);
     text-align: center;
-/*    line-height: 20px;*/
-      line-height: 18px;
+    /*    line-height: 20px;*/
+    line-height: 18px;
   }
 
   /* top-btn */
@@ -783,9 +755,4 @@
   #fiexd__contact > img {
     display: none;
   }
-    
-    
-    
-    
-    
-}/*end*/
+} /*end*/
