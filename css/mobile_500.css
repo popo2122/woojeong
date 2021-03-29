@@ -89,8 +89,10 @@
   /*비행기 아이콘 svg*/
   .main__plane-icon {
     position: absolute;
-    bottom: 8%;
-    right: 15%;
+    /* bottom: 8%;
+    right: 15%; */
+    bottom: 25px;
+    right: 45px;
     width: 20.833vw;
     height: 20.833vw;
   }
