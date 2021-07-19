@@ -643,7 +643,7 @@
   }
 
   .skills__learning > p {
-    /* margin-right: 10px; */
+    margin-bottom: 20px;
     font-size: var(--font-size-small);
     font-weight: 700;
     text-align: center;
